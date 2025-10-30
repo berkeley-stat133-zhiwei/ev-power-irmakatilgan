@@ -8,12 +8,20 @@ format: typst
 ## **Part 0: libraries**
 
 ```{r}
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(stringr)
+library(sf)
+library(janitor)
 
 ```
 
 ## **Part 1:** **Defining Research Question**
 
 Chosen Question:
+Q: Do states with higher EV Registrations use more energy?
+Q: Are energy prices higher in states with more EV Registrations?
 
 ## **Part 2: Data Preparation and Cleaning**
 
